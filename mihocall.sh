@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Hello World!"
+echo "bash script callin miho.py"
 
 #
 
