@@ -1,1 +1,1 @@
-tes
+print "Hello World"
