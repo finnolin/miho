@@ -27,3 +27,5 @@ subprocess.Popen(["aconnect", "Arturia KeyStep 32", "VoiceLive Touch 2"])
 
 #OP-1 Midi Device
 subprocess.Popen(["aconnect", "OP-1 Midi Device", "OP-Z"])
+subprocess.Popen(["aconnect", "OP-1 Midi Device", "Circuit"])
+subprocess.Popen(["aconnect", "OP-1 Midi Device", "VoiceLive Touch 2"])
