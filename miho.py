@@ -8,6 +8,7 @@ import subprocess
 #Circuit
 #VoiceLive Touch 2
 #Deluge
+#Midi USB-USB
 
 
 #CONNECTIONS:
@@ -17,7 +18,7 @@ subprocess.Popen(["aconnect", "Deluge", "OP-1"])
 subprocess.Popen(["aconnect", "Deluge", "reface CS"])
 subprocess.Popen(["aconnect", "Deluge", "VoiceLive Touch 2"])
 subprocess.Popen(["aconnect", "Deluge", "OP-Z"])
-
+subprocess.Popen(["aconnect", "Deluge", "Midi USB-USB"])
 
 #Keystep Out
 subprocess.Popen(["aconnect", "Arturia KeyStep 32", "OP-1"])
@@ -25,3 +26,7 @@ subprocess.Popen(["aconnect", "Arturia KeyStep 32", "OP-Z"])
 subprocess.Popen(["aconnect", "Arturia KeyStep 32", "reface CS"])
 subprocess.Popen(["aconnect", "Arturia KeyStep 32", "Deluge"])
 subprocess.Popen(["aconnect", "Arturia KeyStep 32", "VoiceLive Touch 2"])
+
+#Norns Out
+subprocess.Popen(["aconnect", "Midi USB-USB", "OP-1"])
+subprocess.Popen(["aconnect", "Midi USB-USB", "reface CS"])
