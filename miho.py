@@ -18,7 +18,7 @@ subprocess.Popen(["aconnect", "Deluge", "OP-1"])
 subprocess.Popen(["aconnect", "Deluge", "reface CS"])
 subprocess.Popen(["aconnect", "Deluge", "VoiceLive Touch 2"])
 subprocess.Popen(["aconnect", "Deluge", "OP-Z"])
-subprocess.Popen(["aconnect", "Deluge", "MIDI USB-USB MIDI 1"])
+subprocess.Popen(["aconnect", "Deluge", "MIDI USB-USB:1"])
 
 #Keystep Out
 subprocess.Popen(["aconnect", "Arturia KeyStep 32", "OP-1"])
@@ -28,5 +28,5 @@ subprocess.Popen(["aconnect", "Arturia KeyStep 32", "Deluge"])
 subprocess.Popen(["aconnect", "Arturia KeyStep 32", "VoiceLive Touch 2"])
 
 #Norns Out
-subprocess.Popen(["aconnect", "MIDI USB-USB MIDI 1", "OP-1"])
-subprocess.Popen(["aconnect", "MIDI USB-USB MIDI 1", "reface CS"])
+subprocess.Popen(["aconnect", "MIDI USB-USB:1", "OP-1"])
+subprocess.Popen(["aconnect", "MIDI USB-USB:1", "reface CS"])
